@@ -1,0 +1,55 @@
+@import 'variables';
+
+h1 {
+    font-size: 2.375rem;
+    font-weight: 700;
+    background: $gradient-red-text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: normal;
+}
+
+h2 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: $color-main-regular;
+}
+
+h3 {
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: $color-main-regular;
+}
+
+h3.h3-caps {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: $color-main-regular;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $color-main-regular;
+}
+
+p {
+    color: $color-basic-black;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+
+ul, ol {
+    line-height: 1.625rem;
+    font-size: 1.125rem;
+    color: $color-basic-black;
+}
+
+a {
+    color: $color-active-regular;
+}
+
+a:hover {
+    color: $color-main-accent;
+}
