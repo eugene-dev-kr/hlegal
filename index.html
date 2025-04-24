@@ -7,6 +7,95 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   
+    <!-- HEADER -->
+    <header class="header container" >
+
+        <!-- Top panel  -->
+        <div class="header__top-panel header-mobile-container ">
+          <div class="header__top-langs ">
+            <button class="header__top-langs-switch">УК</button>
+            <button class="header__top-langs-switch">РУ</button>
+            <button class="header__top-langs-switch">EN</button>
+          </div>
+          <span class="header__separator"></span>
+          <p class="header__address">Kyiv, Mechnikova str., 14/1</p>
+          <span class="header__separator"></span>
+          <a class="header__top-phone href="tel:0800211927" ">0800 211 927</a>
+          <a class="header__facebook" href="">
+            <div class="header__facebook-img"></div>
+          </a>
+        </div>
+
+        <!-- Logo -->
+        <div class="header__logo header-mobile-container">
+          <div class="header__logo-main ">
+            <a class="header__logo-link" href="index.html">
+              <!-- <img src="img/header/logo-mobile__main-text.svg" alt="hlegal" />
+              <img src="img/header/logo-mobile__sub-text.svg" alt="law company" /> -->
+              <picture>
+                <source srcset="img/header/logo.svg" media="(min-width: 768px)">
+                <img src="img/header/logo-mobile.svg" alt="Company logo">
+              </picture>
+            </a>
+            <picture>
+              <source srcset="img/header/logo-slash.svg" media="(min-width: 768px)">
+              <img class="header__logo-slash" src="img/header/logo-slash-mobile.svg" alt="/" />
+            </picture>
+            <span class="header__logo-current-page">about us</span>
+          </div>
+
+          <!-- Burger button -->
+          <button class="header__burger">
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+          </button>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="header__nav header-mobile-container">
+          <ul class="header__nav-list">
+            <li class="header__nav-item"><a class="header__nav-link current" href="about.html">about us</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="service.html" >services</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="team.html" >team</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="publications.html" >publications</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="contact.html" >contact</a></li>
+          </ul>
+        </nav>
+
+    </header>
+
+    <!-- Mobile menu -->
+    <div class="mobile__nav">
+      <ul class="mobile__nav-list">
+        <button class="mobile__nav-btn-close">
+          <img src="img/header/mobile-nav-close-btn.svg" alt="">
+        </button>
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="#">Про нас</a></li>
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="service.html">Послуги</a></li>
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="team.html">Команда</a></li>
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="publications.html">Публікації</a></li>
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="contact.html">Контакти</a></li>
+      </ul>
+    </div>
+
+
+    <footer class="footer">
+      <div class="main-box">
+        <div class="box1">
+          <p>Kyiv, Mechnikova str., 14/1</p>
+          <p>On map</p>
+        </div>
+        <div class="box2">
+          <p>facebook</p>
+          <p>0800 211 927</p>
+          <p>contact@forstudy.space</p>
+        </div>
+        <div class="box3">
+          contact@forstudy.space
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,28 @@
+@import 'mixin'; 
+
+html {
+    height: 100%;
+    width: 100vw;
+    font-size: 18px;
+}
+
+body {
+    min-height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 26px;
+    font-weight: 400;
+    min-width: 320px;
+    width: 100%;
+}
+
+
+.container {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1920px;
+    margin: 0 auto;
+    @include respond(tablet-sd) {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
