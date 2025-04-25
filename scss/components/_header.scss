@@ -68,12 +68,6 @@
     font-weight: 700;
     line-height: normal;
   }
-  &__separator {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background-color: $color-grey-separator;
-  }
   &__facebook-img {
     width: 24px;
     height: 24px;
@@ -85,14 +79,12 @@
   &__address {
     color: $color-grey-text;
   }
-  &__separator,
   &__address,
   &__facebook {
     display: none;
     line-height: normal;
   }
   @include respond (tablet-sd) {
-    &__separator,
     &__address,
     &__facebook {
       display: block;
@@ -198,8 +190,10 @@
   padding: 12px;
   transform: translateY(100%);
   transition: transform .3s;
-  &-btn-close {
-    align-self: flex-end;
+  &-header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
   }
   &-list {
     display: flex;
@@ -232,9 +226,6 @@
         color: $color-main-accent;
       }
     }
-  &-btn-close {
-    margin-bottom: 12.5px;
-  }
   &.visible {
     transform: translateY(0);
   }

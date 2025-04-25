@@ -1,4 +1,4 @@
-@import 'mixin'; 
+@import 'mixin', 'variables'; 
 
 html {
     height: 100%;
@@ -24,5 +24,16 @@ body {
     @include respond(tablet-sd) {
         padding-left: 60px;
         padding-right: 60px;
+    }
+}
+
+.main-separator {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: $color-grey-separator;
+    display: none;
+    @include respond(tablet-sd) {
+        display: block;
     }
 }

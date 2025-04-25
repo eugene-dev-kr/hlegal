@@ -6,13 +6,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileMenu = document.querySelector('.mobile__nav');
     const closeMobileManu = document.querySelector('.mobile__nav-btn-close');
     burgerBtn.addEventListener('click', ()=> {
-        console.log('work');
         mobileMenu.classList.add('visible');
     });
     closeMobileManu.addEventListener('click', ()=> {
         mobileMenu.classList.remove('visible');
     })
-    console.log(burgerBtn);
 
 
     //SWITCHED HEADER LANG

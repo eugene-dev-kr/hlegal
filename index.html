@@ -17,10 +17,10 @@
             <button class="header__top-langs-switch">РУ</button>
             <button class="header__top-langs-switch">EN</button>
           </div>
-          <span class="header__separator"></span>
+          <span class="main-separator"></span>
           <p class="header__address">Kyiv, Mechnikova str., 14/1</p>
-          <span class="header__separator"></span>
-          <a class="header__top-phone href="tel:0800211927" ">0800 211 927</a>
+          <span class="main-separator"></span>
+          <a class="header__top-phone" href="tel:0800211927">0800 211 927</a>
           <a class="header__facebook" href="">
             <div class="header__facebook-img"></div>
           </a>
@@ -30,8 +30,6 @@
         <div class="header__logo header-mobile-container">
           <div class="header__logo-main ">
             <a class="header__logo-link" href="index.html">
-              <!-- <img src="img/header/logo-mobile__main-text.svg" alt="hlegal" />
-              <img src="img/header/logo-mobile__sub-text.svg" alt="law company" /> -->
               <picture>
                 <source srcset="img/header/logo.svg" media="(min-width: 768px)">
                 <img src="img/header/logo-mobile.svg" alt="Company logo">
@@ -67,10 +65,12 @@
 
     <!-- Mobile menu -->
     <div class="mobile__nav">
-      <ul class="mobile__nav-list">
+      <div class="mobile__nav-header">
         <button class="mobile__nav-btn-close">
           <img src="img/header/mobile-nav-close-btn.svg" alt="">
         </button>
+      </div>
+      <ul class="mobile__nav-list">
         <li class="mobile__nav-item"><a class="mobile__nav-link" href="#">Про нас</a></li>
         <li class="mobile__nav-item"><a class="mobile__nav-link" href="service.html">Послуги</a></li>
         <li class="mobile__nav-item"><a class="mobile__nav-link" href="team.html">Команда</a></li>
@@ -80,19 +80,30 @@
     </div>
 
 
+    <!-- MAIN -->
+    <main class="main">
+      
+    </main>
+
+    <!-- FOOTER -->
     <footer class="footer">
-      <div class="main-box">
-        <div class="box1">
-          <p>Kyiv, Mechnikova str., 14/1</p>
-          <p>On map</p>
+      <div class="footer__content">
+        <div class="footer__address">
+          <p class="footer__address-street">Kyiv, Mechnikova str., 14/1</p>
+          <span class="main-separator"></span>
+          <a class="footer__address-map" href="https://maps.app.goo.gl/fLGNVrv44CiNPjZn8">On map</a>
         </div>
-        <div class="box2">
-          <p>facebook</p>
-          <p>0800 211 927</p>
-          <p>contact@forstudy.space</p>
+        <div class="footer__contact">
+          <a class="footer__facebook-link" href="https://facebook.com" >
+            <div class="footer__facebook-img"></div>
+          </a>
+          <span class="main-separator"></span>
+          <p class="footer__phone">0800 211 927</p>
+          <span class="main-separator"></span>
+          <a class="footer__email-link" href="email:contact@forstudy.space">contact@forstudy.space</a>
         </div>
-        <div class="box3">
-          contact@forstudy.space
+        <div class="footer__copyright">
+         <p class="footer__copyright-text">&copy; 2025 HLEGAL Law company, LLC</p>
         </div>
       </div>
     </footer>

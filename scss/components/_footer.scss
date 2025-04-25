@@ -1,3 +1,82 @@
-@import '../variables', 'mixin';
+@import '../variables', '../mixin';
 
+
+
+
+.footer {
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        @include respond (tablet-sd) {
+            padding: 30px 60px;
+        }
+        @include respond(desktop-sd){
+            display: grid;
+            grid-template-areas: 
+            'address copyright'
+            'contact .';
+        }
+    }
+    &__address {
+        padding-bottom: 20px;
+        grid-area: address;
+        @include respond (tablet-sd) {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+        }
+        &-street {
+            color:$color-main-regular
+        }
+        &-map {
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+    &__contact {
+        display: flex;
+        grid-area: contact;
+        flex-direction: column;
+        padding-bottom: 30px;
+        @include respond (tablet-sd) {
+            flex-direction: row;
+            align-items: center;
+            column-gap: 10px;
+        }
+    }
+    &__copyright {
+        grid-area: copyright;
+        grid-row: span 2;
+        justify-self: end;
+        &-text {
+            color: $color-grey-text;
+        }
+    }
+    &__facebook {
+        &-link{
+            align-self: center;
+        }
+        &-img {
+            width: 38px;
+            height: 38px;
+            background-image: url(../../img/footer/facebook-icon-regular.svg);
+            &:hover {
+                background-image: url(../../img/footer/facebook-icon-hover.svg);
+            }
+        }
+    }
+    &__phone {
+        color: $color-main-alt;
+        font-weight: 700;
+    }
+    &__email {
+        &-link {
+            font-weight: 700;
+        }
+    }
+}
 
