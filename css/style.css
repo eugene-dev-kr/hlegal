@@ -630,6 +630,14 @@ p.padding-block {
   align-items: center;
   row-gap: 30px;
 }
+.about__footer-title {
+  padding-top: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #323264;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 .about__footer-wrap {
   background-color: #F5F5FA;
 }
@@ -671,4 +679,88 @@ p.padding-block {
 }
 .about__footer-switch-btn:hover {
   background-color: #24A3FF;
+}
+
+.team__title {
+  padding-block: 15px !important;
+}
+@media (min-width: 768px) {
+  .team__title {
+    padding-block: 60px !important;
+  }
+}
+.team__content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .team__content {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 60px;
+    padding-top: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .team__content {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+.team__content-item {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.team__content-info {
+  display: flex;
+  justify-content: space-between;
+}
+.team__content-btn {
+  background-image: url(../../img/team/btn-more-regular.svg);
+  aspect-ratio: 1/1;
+  width: 32px;
+  height: 32px;
+}
+.team__content-btn:hover {
+  background-image: url(../../img/team/btn-more-hover.svg);
+}
+.team__content-text-title {
+  font-size: 16px;
+  color: #323264;
+  font-weight: 700;
+  line-height: normal;
+}
+.team__content-text-position {
+  font-size: 14px;
+  color: #B3B3BA;
+  line-height: 22px;
+}
+.team__content-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.team__content-img-1 {
+  background-image: url(../../img/team/team-people-1.jpg);
+}
+.team__content-img-2 {
+  background-image: url(../../img/team/team-people-2.jpg);
+}
+.team__content-img-3 {
+  background-image: url(../../img/team/team-people-3.jpg);
+}
+.team__content-img-4 {
+  background-image: url(../../img/team/team-people-4.jpg);
+}
+.team__content-img-5 {
+  background-image: url(../../img/team/team-people-5.jpg);
+}
+.team__content-img-6 {
+  background-image: url(../../img/team/team-people-6.jpg);
 }/*# sourceMappingURL=style.css.map */
