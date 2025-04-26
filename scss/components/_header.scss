@@ -3,14 +3,6 @@
 
 
 
-.header-mobile-container {
-  padding-left: 15px;
-  padding-right: 15px;
-  @include respond(tablet-sd) {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
 
 .header {
   @include respond (tablet-sd) {
@@ -29,19 +21,26 @@
   }
   &__top-panel {
     grid-area: top-panel;
-    width: 100%;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: $color-grey-bg;
     @include respond (tablet-sd) {
+      width: 100%; 
+      margin-left: 0; 
       background-color: transparent;
       justify-content: flex-start;
       column-gap: 6px;
       padding-top: 0;
       padding-bottom: 0;
+      padding-left: 0;
+      padding-right: 0;
     }
   }
   &__top-langs {
@@ -182,6 +181,7 @@
 
 
 .mobile__nav {
+  background-color: $color-basic-white;
   position: fixed;
   bottom: 0;
   left: 2vw;

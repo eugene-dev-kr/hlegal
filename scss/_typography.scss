@@ -4,13 +4,7 @@ h1,h2,h3,h3.h3-caps,h4 {
     line-height: normal;
 }
 
-h1 {
-    font-size: 38px;
-    font-weight: 700;
-    background: $gradient-red-text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 
 h2 {
     font-size: 30px;
@@ -54,4 +48,17 @@ a {
 
 a:hover {
     color: $color-main-accent;
+}
+
+.title-gradient {
+    line-height: normal;
+    font-size: 38px;
+    font-weight: 700;
+    background: $gradient-red-text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p.padding-block {
+    padding-block: 15px;
 }

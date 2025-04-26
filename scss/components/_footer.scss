@@ -4,15 +4,13 @@
 
 
 .footer {
+    background-color: $color-grey-bg;
     &__content {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 30px;
-        @include respond (tablet-sd) {
-            padding: 30px 60px;
-        }
+        padding-block: 30px;
         @include respond(desktop-sd){
             display: grid;
             grid-template-areas: 
