@@ -183,7 +183,7 @@ a:hover {
 }
 
 p.padding-block {
-  padding-block: 15px;
+  padding-block: 30px;
 }
 
 @media (min-width: 768px) {
@@ -679,6 +679,114 @@ p.padding-block {
 }
 .about__footer-switch-btn:hover {
   background-color: #24A3FF;
+}
+
+.contact__form {
+  padding-block: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 60px;
+}
+@media (min-width: 768px) {
+  .contact__form {
+    padding-block: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  .contact__form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.contact__form-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-bottom: 30px;
+}
+.contact__form-info-address {
+  font-size: 21px;
+  color: #323264;
+  line-height: 30px;
+  padding-bottom: 30px;
+  border-bottom: 4px solid #E6E6F0;
+}
+.contact__form-info-phone {
+  font-size: 21px;
+  color: #46466E;
+  line-height: 30px;
+}
+.contact__form-email {
+  display: block;
+  padding-bottom: 30px;
+  border-bottom: 4px solid #E6E6F0;
+}
+.contact__form-facebook-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+.contact__form-facebook-link-img {
+  width: 38px;
+  height: 38px;
+  background-image: url("../../img/contact/facebook-icon-regular.svg");
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s;
+}
+.contact__form-facebook-link-title {
+  position: relative;
+  transition: opacity 0.3s;
+  text-transform: uppercase;
+  color: #24A3FF;
+}
+.contact__form-facebook-link-title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s;
+  white-space: nowrap;
+}
+.contact__form-facebook-link:hover .contact__form-facebook-link-img {
+  background-image: url("../../img/contact/facebook-icon-hover.svg");
+}
+.contact__form-facebook-link:hover .contact__form-facebook-link-title {
+  color: #F0145A;
+}
+.contact__form-facebook-link:hover::after {
+  opacity: 1;
+}
+.contact__form-feedback {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  padding-top: 15px;
+  background-color: #F5F5FA;
+  border-radius: 12px;
+}
+.contact__form-input {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+.contact__form-input::placeholder {
+  color: #B3B3BA;
+  font-size: 16px;
+  line-height: 26px;
+}
+.contact__form-input-msg {
+  resize: none;
+  min-height: 130px;
+}
+.contact__form-btn-msg {
+  color: #fff;
+  background-color: #24A3FF;
+  border-radius: 12px;
+  padding: 18px 30px;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .team__title {

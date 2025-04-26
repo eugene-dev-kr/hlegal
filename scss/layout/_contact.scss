@@ -1,2 +1,117 @@
 @import '../variables',
         '../mixin';
+
+
+.contact__form {
+    padding-block: 30px;
+    @include respond(tablet-sd) {
+        padding-block: 60px;
+    }
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 60px;
+    @include respond(tablet-hd) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    &-info {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        margin-bottom: 30px;
+        &-address {
+            font-size: 21px;
+            color: $color-main-regular;
+            line-height: 30px;
+            padding-bottom: 30px;
+            border-bottom: 4px solid $color-grey-separator;
+        }
+        &-phone {
+            font-size: 21px;
+            color: $color-main-alt;
+            line-height: 30px;
+        }
+    }
+    &-email {
+        display: block;
+        padding-bottom: 30px;
+        border-bottom: 4px solid $color-grey-separator;
+    }
+
+
+
+    &-facebook-link {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+      
+        &-img {
+          width: 38px;
+          height: 38px;
+          background-image: url('../../img/contact/facebook-icon-regular.svg');
+          background-size: cover;
+          background-position: center;
+          transition: background-image 0.3s;
+        }
+      
+        &-title {
+          position: relative;
+          transition: opacity 0.3s;
+          text-transform: uppercase;
+          color: $color-active-regular;
+          &::after {
+            content: '';
+            
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: opacity 0.3s;
+            white-space: nowrap;
+          }
+        }
+      
+        &:hover {
+          .contact__form-facebook-link-img {
+            background-image: url('../../img/contact/facebook-icon-hover.svg'); 
+          }
+          .contact__form-facebook-link-title {
+            color: $color-main-accent;
+        }
+            &::after {
+              opacity: 1;
+            }
+          }
+    }
+
+    &-feedback {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        padding-top: 15px;
+        background-color: $color-grey-bg;
+        border-radius: 12px;
+    }
+    &-input {
+        background-color: $color-basic-white;
+        padding: 15px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        &::placeholder {
+            color: $color-grey-text;
+            font-size: 16px;
+            line-height: 26px;
+        }
+        &-msg {
+            resize: none;
+            min-height: 130px;
+        }
+    }
+    &-btn-msg {
+        color: $color-basic-white;
+        background-color: $color-active-regular;
+        border-radius: 12px;
+        padding: 18px 30px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+}

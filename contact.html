@@ -4,9 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   
+    <!-- HEADER -->
+    <header class="header container" >
+
+        <!-- Top panel  -->
+        <div class="header__top-panel ">
+          <div class="header__top-langs ">
+            <button class="header__top-langs-switch">УК</button>
+            <button class="header__top-langs-switch">РУ</button>
+            <button class="header__top-langs-switch">EN</button>
+          </div>
+          <span class="main-separator"></span>
+          <p class="header__address">Kyiv, Mechnikova str., 14/1</p>
+          <span class="main-separator"></span>
+          <a class="header__top-phone" href="tel:0800211927">0800 211 927</a>
+          <a class="header__facebook" href="">
+            <div class="header__facebook-img"></div>
+          </a>
+        </div>
+
+        <!-- Logo -->
+        <div class="header__logo ">
+          <div class="header__logo-main ">
+            <a class="header__logo-link" href="index.html">
+              <picture>
+                <source srcset="img/header/logo.svg" media="(min-width: 768px)">
+                <img src="img/header/logo-mobile.svg" alt="Company logo">
+              </picture>
+            </a>
+            <picture>
+              <source srcset="img/header/logo-slash.svg" media="(min-width: 768px)">
+              <img class="header__logo-slash" src="img/header/logo-slash-mobile.svg" alt="/" />
+            </picture>
+            <span class="header__logo-current-page">about us</span>
+          </div>
+
+          <!-- Burger button -->
+          <button class="header__burger">
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+          </button>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item"><a class="header__nav-link " href="about.html">about us</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="service.html" >services</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="team.html" >team</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="publications.html" >publications</a></li>
+            <li class="header__nav-item"><a class="header__nav-link current" href="contact.html" >contact</a></li>
+          </ul>
+        </nav>
+
+    </header>
+
+    <!-- Mobile menu -->
+    <div class="mobile__nav">
+      <div class="mobile__nav-header">
+        <button class="mobile__nav-btn-close">
+          <img src="img/header/mobile-nav-close-btn.svg" alt="">
+        </button>
+      </div>
+      <ul class="mobile__nav-list">
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="#">Про нас</a></li>
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="service.html">Послуги</a></li>
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="team.html">Команда</a></li>
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="publications.html">Публікації</a></li>
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="contact.html">Контакти</a></li>
+      </ul>
+    </div>
+
+
+    <!-- MAIN -->
+    <main class="main">
+      <section class="contact container">
+        <form class="contact__form" action="#">
+            <div class="contact__form-info">
+                <p class="contact__form-info-address">Kyiv, Mechnikova str, 14</p>
+                <p class="contact__form-info-phone">0800 211 927</p>
+                <a href="email:contact@forstudy.space" class="contact__form-email">contact@forstudy.space</a>
+                <div class="contact__form-facebook">
+                    <button class="contact__form-facebook-link">
+                        <span class="contact__form-facebook-link-img"></span>
+                        <span class="contact__form-facebook-link-title">Our page on facebook</span>
+                    </button>
+                </div>
+            </div>
+            <div class="contact__form-feedback">
+                <p class="title-gradient padding-block">We would like to help you</p>
+                <input class="contact__form-input" type="text" placeholder="Name">
+                <textarea class="contact__form-input contact__form-input-msg" placeholder="Message"></textarea>
+                <input class="contact__form-input" type="text" placeholder="Phone number">
+                <input class="contact__form-input" type="text" placeholder="Email">
+                <button class="contact__form-btn-msg">Send message</button>
+                
+            </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer ">
+        <div class="footer__content container ">
+          <div class="footer__address">
+            <p class="footer__address-street">Kyiv, Mechnikova str., 14/1</p>
+            <span class="main-separator"></span>
+            <a class="footer__address-map" href="https://maps.app.goo.gl/fLGNVrv44CiNPjZn8">On map</a>
+          </div>
+          <div class="footer__contact">
+            <a class="footer__facebook-link" href="https://facebook.com" >
+              <div class="footer__facebook-img"></div>
+            </a>
+            <span class="main-separator"></span>
+            <p class="footer__phone">0800 211 927</p>
+            <span class="main-separator"></span>
+            <a class="footer__email-link" href="email:contact@forstudy.space">contact@forstudy.space</a>
+          </div>
+          <div class="footer__copyright">
+           <p class="footer__copyright-text">&copy; 2025 HLEGAL Law company, LLC</p>
+          </div>
+        </div>
+      </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
