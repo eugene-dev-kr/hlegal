@@ -96,6 +96,12 @@
         padding: 15px;
         margin-bottom: 30px;
         border-radius: 8px;
+        &:focus {
+            outline: 1px solid $color-active-regular;
+        }
+        &:disabled {
+            background-color: $color-grey-alt;
+        }
         &::placeholder {
             color: $color-grey-text;
             font-size: 16px;
@@ -113,5 +119,12 @@
         padding: 18px 30px;
         font-weight: 700;
         font-size: 16px;
+        box-shadow: 0px 0px 20px 0px rgba(36, 163, 255, 0.50);
+        &:hover {
+            background-color: $color-active-hover;
+        }
+        &:active {
+            background-color: $color-active-active;
+        }
     }
 }

@@ -771,6 +771,12 @@ p.padding-block {
   margin-bottom: 30px;
   border-radius: 8px;
 }
+.contact__form-input:focus {
+  outline: 1px solid #24A3FF;
+}
+.contact__form-input:disabled {
+  background-color: #EDEDF7;
+}
 .contact__form-input::placeholder {
   color: #B3B3BA;
   font-size: 16px;
@@ -787,6 +793,111 @@ p.padding-block {
   padding: 18px 30px;
   font-weight: 700;
   font-size: 16px;
+  box-shadow: 0px 0px 20px 0px rgba(36, 163, 255, 0.5);
+}
+.contact__form-btn-msg:hover {
+  background-color: #0085FF;
+}
+.contact__form-btn-msg:active {
+  background-color: #006CCF;
+}
+
+.publications__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 30px;
+  gap: 30px;
+}
+.publications__switch-top {
+  background-color: #E6E6F0;
+  border-radius: 12px;
+  padding: 2px;
+  color: #323264;
+  font-weight: 700;
+}
+.publications__switch-top--active, .publications__switch-top--deactive {
+  background-color: #fff;
+  padding: 8px 30px;
+  border-radius: 12px;
+}
+.publications__switch-top--deactive {
+  background-color: inherit;
+}
+.publications__switch-top--deactive:hover {
+  background-color: #F5F5FA;
+}
+.publications__items {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+@media (min-width: 768px) {
+  .publications__items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .publications__items {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+.publications__item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+}
+.publications__item-link {
+  font-weight: 700;
+}
+.publications__item-date {
+  color: #B3B3BA;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: normal;
+}
+.publications__item-separator {
+  height: 4px;
+  width: 100%;
+  background-color: #E6E6F0;
+}
+.publications__item-text {
+  font-size: 14px;
+  line-height: 22px;
+}
+.publications__item-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 100%;
+  min-height: 200px;
+}
+.publications__item-img-1 {
+  background-image: url(../../img/publications/publication-1.jpg);
+}
+.publications__item-img-2 {
+  background-image: url(../../img/publications/publication-2.jpg);
+}
+.publications__item-img-3 {
+  background-image: url(../../img/publications/publication-3.jpg);
+}
+.publications__item-img-4 {
+  background-image: url(../../img/publications/publication-4.jpg);
+}
+.publications__item-img-5 {
+  background-image: url(../../img/publications/publication-5.jpg);
+}
+.publications__btn-more {
+  padding: 18px 30px;
+  color: #fff;
+  background-color: #24A3FF;
+  border-radius: 12px;
+  box-shadow: 0px 0px 20px 0px rgba(36, 163, 255, 0.5);
 }
 
 .team__title {

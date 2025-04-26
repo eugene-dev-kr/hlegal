@@ -4,9 +4,173 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   
+    <!-- HEADER -->
+    <header class="header container" >
+
+        <!-- Top panel  -->
+        <div class="header__top-panel ">
+          <div class="header__top-langs ">
+            <button class="header__top-langs-switch">УК</button>
+            <button class="header__top-langs-switch">РУ</button>
+            <button class="header__top-langs-switch">EN</button>
+          </div>
+          <span class="main-separator"></span>
+          <p class="header__address">Kyiv, Mechnikova str., 14/1</p>
+          <span class="main-separator"></span>
+          <a class="header__top-phone" href="tel:0800211927">0800 211 927</a>
+          <a class="header__facebook" href="">
+            <div class="header__facebook-img"></div>
+          </a>
+        </div>
+
+        <!-- Logo -->
+        <div class="header__logo ">
+          <div class="header__logo-main ">
+            <a class="header__logo-link" href="index.html">
+              <picture>
+                <source srcset="img/header/logo.svg" media="(min-width: 768px)">
+                <img src="img/header/logo-mobile.svg" alt="Company logo">
+              </picture>
+            </a>
+            <picture>
+              <source srcset="img/header/logo-slash.svg" media="(min-width: 768px)">
+              <img class="header__logo-slash" src="img/header/logo-slash-mobile.svg" alt="/" />
+            </picture>
+            <span class="header__logo-current-page">publications</span>
+          </div>
+
+          <!-- Burger button -->
+          <button class="header__burger">
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+            <span class="header__burger-line"></span>
+          </button>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="header__nav">
+          <ul class="header__nav-list">
+            <li class="header__nav-item"><a class="header__nav-link " href="about.html">about us</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="service.html" >services</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="team.html" >team</a></li>
+            <li class="header__nav-item"><a class="header__nav-link current" href="publications.html" >publications</a></li>
+            <li class="header__nav-item"><a class="header__nav-link" href="contact.html" >contact</a></li>
+          </ul>
+        </nav>
+
+    </header>
+
+    <!-- Mobile menu -->
+    <div class="mobile__nav">
+      <div class="mobile__nav-header">
+        <button class="mobile__nav-btn-close">
+          <img src="img/header/mobile-nav-close-btn.svg" alt="">
+        </button>
+      </div>
+      <ul class="mobile__nav-list">
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="#">Про нас</a></li>
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="service.html">Послуги</a></li>
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="team.html">Команда</a></li>
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="publications.html">Публікації</a></li>
+        <li class="mobile__nav-item"><a class="mobile__nav-link" href="contact.html">Контакти</a></li>
+      </ul>
+    </div>
+
+
+    <!-- MAIN -->
+    <main class="main">
+      <section class="publications">
+        <div class="publications__content container">
+            <div class="publications__switch-top">
+                <button class="publications__switch-top--active">news</button>
+                <button class="publications__switch-top--deactive">articles</button>
+            </div>
+            <div class="publications__items">
+                <div class="publications__item">
+                    <div class="publications__item-img publications__item-img-1"></div>
+                    <div class="publications__item-content">
+                        <a href="" class="publications__item-link">Equity associate</a>
+                        <p class="publications__item-date">April 22</p>
+                        <div class="publications__item-separator"></div>
+                        <p class="publications__item-text">I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I…</p>
+                    </div>
+                </div>
+                <div class="publications__item">
+                    <div class="publications__item-img publications__item-img-2"></div>
+                    <div class="publications__item-content">
+                        <a href="" class="publications__item-link">Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR</a>
+                        <p class="publications__item-date">September 29</p>
+                        <div class="publications__item-separator"></div>
+                        <p class="publications__item-text">And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21 National Commission for Data Protection.</p>
+                    </div>
+                </div>
+                <div class="publications__item">
+                    <div class="publications__item-img publications__item-img-3"></div>
+                    <div class="publications__item-content">
+                        <a href="" class="publications__item-link">Millennial Testament</a>
+                        <p class="publications__item-date">August 19</p>
+                        <div class="publications__item-separator"></div>
+                        <p class="publications__item-text">What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…</p>
+                    </div>
+                </div>
+                <div class="publications__item">
+                    <div class="publications__item-img publications__item-img-4"></div>
+                    <div class="publications__item-content">
+                        <a href="" class="publications__item-link">Language Law: How to Make Your Website Relevant</a>
+                        <p class="publications__item-date">August 19</p>
+                        <div class="publications__item-separator"></div>
+                        <p class="publications__item-text">Natalia Kyryk, head of content studio Wordfactory.ua First, it's beautiful! This is the number one argument in favor of the Ukrainian-language site. Secondly, it is effective. IN…/p>
+                    </div>
+                </div>
+                <div class="publications__item">
+                    <div class="publications__item-img publications__item-img-5"></div>
+                    <div class="publications__item-content">
+                        <a href="" class="publications__item-link">Reimbursement of the child's tuition fees in kindergarten and school</a>
+                        <p class="publications__item-date">February 5, 2018</p>
+                        <div class="publications__item-separator"></div>
+                        <p class="publications__item-text">What we are talking about In June this year, the Verkhovna Rada amended the Tax Code of Ukraine. From now on, parents who receive an official…</p>
+                    </div>
+                </div>
+                <div class="publications__item">
+                    <div class="publications__item-content">
+                        <a href="" class="publications__item-link">Currency control is dead, long live currency control!</a>
+                        <p class="publications__item-date">June 14, 2018</p>
+                        <div class="publications__item-separator"></div>
+                        <p class="publications__item-text">Experts hold conferences, round tables and other events on "liberalization of currency legislation." Lawyers-experts-novelists rub their fingers about "ctrl + c / ctrl + v".</p>
+                    </div>
+                </div>
+            </div>
+            <button class="publications__btn-more">Send message</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer ">
+        <div class="footer__content container ">
+          <div class="footer__address">
+            <p class="footer__address-street">Kyiv, Mechnikova str., 14/1</p>
+            <span class="main-separator"></span>
+            <a class="footer__address-map" href="https://maps.app.goo.gl/fLGNVrv44CiNPjZn8">On map</a>
+          </div>
+          <div class="footer__contact">
+            <a class="footer__facebook-link" href="https://facebook.com" >
+              <div class="footer__facebook-img"></div>
+            </a>
+            <span class="main-separator"></span>
+            <p class="footer__phone">0800 211 927</p>
+            <span class="main-separator"></span>
+            <a class="footer__email-link" href="email:contact@forstudy.space">contact@forstudy.space</a>
+          </div>
+          <div class="footer__copyright">
+           <p class="footer__copyright-text">&copy; 2025 HLEGAL Law company, LLC</p>
+          </div>
+        </div>
+      </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
