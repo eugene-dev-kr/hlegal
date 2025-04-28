@@ -1321,7 +1321,7 @@ p.padding-block {
 }
 .services-page .hero-img {
   z-index: 2;
-  background-image: url(../../img/home/symbol-bg-tablet-hd.svg);
+  background-image: url(../img/home/symbol-bg-tablet-hd.svg);
   background-position: top center;
   background-repeat: no-repeat;
   min-height: 600px;
@@ -1335,13 +1335,13 @@ p.padding-block {
   z-index: 5;
   margin-top: auto;
   text-align: center;
-  background-image: url(../../img/home/button-scroll-regular.svg);
+  background-image: url(../img/home/button-scroll-regular.svg);
   background-repeat: no-repeat;
   width: 42px;
   height: 42px;
 }
 .services-page .hero__scroll-btn:hover {
-  background-image: url(../../img/home/button-scroll-hover.svg);
+  background-image: url(../img/home/button-scroll-hover.svg);
 }
 .services-page .hero__scroll-btn a {
   display: inline-block;
@@ -1370,10 +1370,10 @@ p.padding-block {
   color: #fff;
 }
 .services-page .header__facebook-img {
-  background-image: url(../../img/services/facebook-header-regular.svg);
+  background-image: url(../img/services/facebook-header-regular.svg);
 }
 .services-page .header__facebook-img:hover {
-  background-image: url(../../img/services/facebook-header-hover.svg);
+  background-image: url(../img/services/facebook-header-hover.svg);
 }
 .services-page .header__nav-link {
   color: #fff;
@@ -1417,7 +1417,7 @@ p.padding-block {
 .services__nav-link-img {
   width: 12px;
   height: 12px;
-  background-image: url(../../img/home/services-nav-arrow.svg);
+  background-image: url(../img/home/services-nav-arrow.svg);
   background-size: cover;
   background-position: center;
 }
@@ -1425,7 +1425,7 @@ p.padding-block {
   color: #F0145A;
 }
 .services__nav-link:hover .services__nav-link-img {
-  background-image: url(../../img/home/services-nav-arrow-hover.svg);
+  background-image: url(../img/home/services-nav-arrow-hover.svg);
 }
 .services__items {
   padding-block: 30px;
@@ -1463,22 +1463,22 @@ p.padding-block {
   background-repeat: no-repeat;
 }
 .services__item-icon-1 {
-  background-image: url(../../img/services/services-item-1.svg);
+  background-image: url(../img/services/services-item-1.svg);
 }
 .services__item-icon-2 {
-  background-image: url(../../img/services/services-item-2.svg);
+  background-image: url(../img/services/services-item-2.svg);
 }
 .services__item-icon-3 {
-  background-image: url(../../img/services/services-item-3.svg);
+  background-image: url(../img/services/services-item-3.svg);
 }
 .services__item-icon-4 {
-  background-image: url(../../img/services/services-item-4.svg);
+  background-image: url(../img/services/services-item-4.svg);
 }
 .services__item-icon-5 {
-  background-image: url(../../img/services/services-item-5.svg);
+  background-image: url(../img/services/services-item-5.svg);
 }
 .services__item-icon-6 {
-  background-image: url(../../img/services/services-item-6.svg);
+  background-image: url(../img/services/services-item-6.svg);
 }
 .services__item-text {
   color: #fff;
@@ -1508,7 +1508,7 @@ p.padding-block {
 .services__team-content-img {
   flex-basis: 400px;
   border-radius: 12px 12px 0 0;
-  background-image: url(../../img/home/services-team-img.jpg);
+  background-image: url(../img/home/services-team-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1538,13 +1538,13 @@ p.padding-block {
   display: inline-block;
   width: 12px;
   height: 12px;
-  background-image: url(../../img/home/services-nav-arrow.svg);
+  background-image: url(../img/home/services-nav-arrow.svg);
 }
 .services__team-content-desk-link:hover .services__team-content-desk-link-text {
   color: #F0145A;
 }
 .services__team-content-desk-link:hover .services__team-content-desk-link-arrow {
-  background-image: url(../../img/home/services-nav-arrow-hover.svg);
+  background-image: url(../img/home/services-nav-arrow-hover.svg);
 }
 .services__team-content-name {
   padding-top: 30px;
@@ -1597,10 +1597,10 @@ p.padding-block {
   display: inline-block;
   width: 12px;
   height: 12px;
-  background-image: url(../../img/home/services-nav-arrow.svg);
+  background-image: url(../img/home/services-nav-arrow.svg);
 }
 .services__publications-nav:hover .services__publications-nav-arrow {
-  background-image: url(../../img/home/services-nav-arrow-hover.svg);
+  background-image: url(../img/home/services-nav-arrow-hover.svg);
 }
 .services__publications-items {
   display: grid;
@@ -1666,13 +1666,13 @@ p.padding-block {
   background-size: cover;
 }
 .services__publications-item-img-1 {
-  background-image: url(../../img/publications/publication-1.jpg);
+  background-image: url(../img/publications/publication-1.jpg);
 }
 .services__publications-item-img-2 {
-  background-image: url(../../img/publications/publication-2.jpg);
+  background-image: url(../img/publications/publication-2.jpg);
 }
 .services__publications-item-img-3 {
-  background-image: url(../../img/publications/publication-3.jpg);
+  background-image: url(../img/publications/publication-3.jpg);
 }
 .services__trust {
   padding-top: 60px;
@@ -1705,84 +1705,84 @@ p.padding-block {
 .services__trust-item-1 {
   min-height: 120px;
   background-color: #1C4280;
-  background-image: url(../../img/services/trust-1.svg);
+  background-image: url(../img/services/trust-1.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .services__trust-item-2 {
   min-height: 120px;
   background-color: #143646;
-  background-image: url(../../img/services/trust-2.svg);
+  background-image: url(../img/services/trust-2.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .services__trust-item-3 {
   min-height: 120px;
   background-color: #F48B30;
-  background-image: url(../../img/services/trust-3.svg);
+  background-image: url(../img/services/trust-3.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .services__trust-item-4 {
   min-height: 120px;
   background-color: #9E4DC3;
-  background-image: url(../../img/services/trust-4.svg);
+  background-image: url(../img/services/trust-4.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .services__trust-item-5 {
   min-height: 120px;
   background-color: #F48B30;
-  background-image: url(../../img/services/trust-5.svg);
+  background-image: url(../img/services/trust-5.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .services__trust-item-6 {
   min-height: 120px;
   background-color: #E2E2E4;
-  background-image: url(../../img/services/trust-6.svg);
+  background-image: url(../img/services/trust-6.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .services__trust-item-7 {
   min-height: 120px;
   background-color: #C71C36;
-  background-image: url(../../img/services/trust-7.svg);
+  background-image: url(../img/services/trust-7.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .services__trust-item-8 {
   min-height: 120px;
   background-color: #DCF3F9;
-  background-image: url(../../img/services/trust-8.svg);
+  background-image: url(../img/services/trust-8.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .services__trust-item-9 {
   min-height: 120px;
   background-color: #EAEAEA;
-  background-image: url(../../img/services/trust-9.svg);
+  background-image: url(../img/services/trust-9.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .services__trust-item-10 {
   min-height: 120px;
   background-color: #282240;
-  background-image: url(../../img/services/trust-10.svg);
+  background-image: url(../img/services/trust-10.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .services__trust-item-11 {
   min-height: 120px;
   background-color: #1D4568;
-  background-image: url(../../img/services/trust-11.svg);
+  background-image: url(../img/services/trust-11.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .services__trust-item-12 {
   min-height: 120px;
   background-color: #000000;
-  background-image: url(../../img/services/trust-12.svg);
+  background-image: url(../img/services/trust-12.svg);
   background-position: center;
   background-repeat: no-repeat;
 }/*# sourceMappingURL=style.css.map */

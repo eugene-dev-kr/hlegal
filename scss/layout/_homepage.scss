@@ -117,7 +117,7 @@
         }
         &-img {
             z-index: 2;
-            background-image: url(../../img/home/symbol-bg-tablet-hd.svg);
+            background-image: url(../img/home/symbol-bg-tablet-hd.svg);
             background-position: top center;
             background-repeat: no-repeat;
             min-height: 600px;
@@ -131,12 +131,12 @@
             z-index: 5;
             margin-top: auto;
             text-align: center;
-            background-image: url(../../img/home/button-scroll-regular.svg);
+            background-image: url(../img/home/button-scroll-regular.svg);
             background-repeat: no-repeat;
             width: 42px;
             height: 42px;
             &:hover {
-                background-image: url(../../img/home/button-scroll-hover.svg);
+                background-image: url(../img/home/button-scroll-hover.svg);
             }
             a {
                 display: inline-block;
@@ -170,9 +170,9 @@
             color: $color-basic-white;
         }
         &__facebook-img {
-            background-image: url(../../img/services/facebook-header-regular.svg);
+            background-image: url(../img/services/facebook-header-regular.svg);
             &:hover {
-                background-image: url(../../img/services/facebook-header-hover.svg);
+                background-image: url(../img/services/facebook-header-hover.svg);
             }
         }
         &__nav-link {
@@ -216,7 +216,7 @@
             &-img {
                 width: 12px;
                 height: 12px;
-                background-image: url(../../img/home/services-nav-arrow.svg);
+                background-image: url(../img/home/services-nav-arrow.svg);
                 background-size: cover;
                 background-position: center;
             }
@@ -225,7 +225,7 @@
                     color: $color-main-accent;
                 }
                 .services__nav-link-img {
-                    background-image: url(../../img/home/services-nav-arrow-hover.svg);
+                    background-image: url(../img/home/services-nav-arrow-hover.svg);
                 }
             }
         }
@@ -262,22 +262,22 @@
             background-position: center;
             background-repeat: no-repeat;
             &-1 {
-                background-image: url(../../img/services/services-item-1.svg);
+                background-image: url(../img/services/services-item-1.svg);
             }
             &-2 {
-                background-image: url(../../img/services/services-item-2.svg);
+                background-image: url(../img/services/services-item-2.svg);
             }
             &-3 {
-                background-image: url(../../img/services/services-item-3.svg);
+                background-image: url(../img/services/services-item-3.svg);
             }
             &-4 {
-                background-image: url(../../img/services/services-item-4.svg);
+                background-image: url(../img/services/services-item-4.svg);
             }
             &-5 {
-                background-image: url(../../img/services/services-item-5.svg);
+                background-image: url(../img/services/services-item-5.svg);
             }
             &-6 {
-                background-image: url(../../img/services/services-item-6.svg);
+                background-image: url(../img/services/services-item-6.svg);
             }
         }
         &-text {
@@ -305,7 +305,7 @@
             &-img {
                 flex-basis: 400px;
                 border-radius: 12px 12px 0 0;
-                background-image: url(../../img/home/services-team-img.jpg);
+                background-image: url(../img/home/services-team-img.jpg);
                 // aspect-ratio: 1/1;
                 background-size: cover;
                 background-repeat: no-repeat;
@@ -337,14 +337,14 @@
                         display: inline-block;
                         width: 12px;
                         height: 12px;
-                        background-image: url(../../img/home/services-nav-arrow.svg);
+                        background-image: url(../img/home/services-nav-arrow.svg);
                     }
                     &:hover {
                         .services__team-content-desk-link-text {
                             color: $color-main-accent;
                         }
                         .services__team-content-desk-link-arrow {
-                            background-image: url(../../img/home/services-nav-arrow-hover.svg);
+                            background-image: url(../img/home/services-nav-arrow-hover.svg);
                         }
                     }
                 }
@@ -402,11 +402,11 @@
                 display: inline-block;
                 width: 12px;
                 height: 12px;
-                background-image: url(../../img/home/services-nav-arrow.svg);
+                background-image: url(../img/home/services-nav-arrow.svg);
             }
             &:hover {
                 .services__publications-nav-arrow {
-                    background-image: url(../../img/home/services-nav-arrow-hover.svg);
+                    background-image: url(../img/home/services-nav-arrow-hover.svg);
                 }
             }
         }
@@ -467,13 +467,13 @@
             background-repeat: no-repeat;
             background-size: cover;
             &-1 {
-                background-image: url(../../img/publications/publication-1.jpg);
+                background-image: url(../img/publications/publication-1.jpg);
             }
             &-2 {
-                background-image: url(../../img/publications/publication-2.jpg);
+                background-image: url(../img/publications/publication-2.jpg);
             }
             &-3 {
-                background-image: url(../../img/publications/publication-3.jpg);
+                background-image: url(../img/publications/publication-3.jpg);
             }
         }
     }
@@ -503,21 +503,21 @@
         &-item-1 {
             min-height: 120px;
             background-color: #1C4280;
-            background-image: url(../../img/services/trust-1.svg);
+            background-image: url(../img/services/trust-1.svg);
             background-position: center;
             background-repeat: no-repeat;
         }
         &-item-2 {
             min-height: 120px;
             background-color: #143646;
-            background-image: url(../../img/services/trust-2.svg);
+            background-image: url(../img/services/trust-2.svg);
             background-position: center;
             background-repeat: no-repeat;
         }
         &-item-3 {
             min-height: 120px;
             background-color: #F48B30;
-            background-image: url(../../img/services/trust-3.svg);
+            background-image: url(../img/services/trust-3.svg);
             background-position: center;
             background-repeat: no-repeat;
         }
@@ -525,63 +525,63 @@
         &-item-4 {
             min-height: 120px;
             background-color: #9E4DC3;
-            background-image: url(../../img/services/trust-4.svg);
+            background-image: url(../img/services/trust-4.svg);
             background-position: center;
             background-repeat: no-repeat;
         }
         &-item-5 {
             min-height: 120px;
             background-color: #F48B30;
-            background-image: url(../../img/services/trust-5.svg);
+            background-image: url(../img/services/trust-5.svg);
             background-position: center;
             background-repeat: no-repeat;
         }
         &-item-6 {
             min-height: 120px;
             background-color: #E2E2E4;
-            background-image: url(../../img/services/trust-6.svg);
+            background-image: url(../img/services/trust-6.svg);
             background-position: center;
             background-repeat: no-repeat;
         }
         &-item-7 {
             min-height: 120px;
             background-color: #C71C36;
-            background-image: url(../../img/services/trust-7.svg);
+            background-image: url(../img/services/trust-7.svg);
             background-position: center;
             background-repeat: no-repeat;
         }
         &-item-8 {
             min-height: 120px;
             background-color: #DCF3F9;
-            background-image: url(../../img/services/trust-8.svg);
+            background-image: url(../img/services/trust-8.svg);
             background-position: center;
             background-repeat: no-repeat;
         }
         &-item-9 {
             min-height: 120px;
             background-color: #EAEAEA;
-            background-image: url(../../img/services/trust-9.svg);
+            background-image: url(../img/services/trust-9.svg);
             background-position: center;
             background-repeat: no-repeat;
         }
         &-item-10 {
             min-height: 120px;
             background-color: #282240;
-            background-image: url(../../img/services/trust-10.svg);
+            background-image: url(../img/services/trust-10.svg);
             background-position: center;
             background-repeat: no-repeat;
         }
         &-item-11 {
             min-height: 120px;
             background-color: #1D4568;
-            background-image: url(../../img/services/trust-11.svg);
+            background-image: url(../img/services/trust-11.svg);
             background-position: center;
             background-repeat: no-repeat;
         }
         &-item-12 {
             min-height: 120px;
             background-color: #000000;
-            background-image: url(../../img/services/trust-12.svg);
+            background-image: url(../img/services/trust-12.svg);
             background-position: center;
             background-repeat: no-repeat;
         }
