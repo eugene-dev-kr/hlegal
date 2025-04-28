@@ -48,7 +48,7 @@
         &-img {
           width: 38px;
           height: 38px;
-          background-image: url('../../img/contact/facebook-icon-regular.svg');
+          background-image: url('../img/contact/facebook-icon-regular.svg');
           background-size: cover;
           background-position: center;
           transition: background-image 0.3s;
@@ -72,7 +72,7 @@
       
         &:hover {
           .contact__form-facebook-link-img {
-            background-image: url('../../img/contact/facebook-icon-hover.svg'); 
+            background-image: url('../img/contact/facebook-icon-hover.svg'); 
           }
           .contact__form-facebook-link-title {
             color: $color-main-accent;
