@@ -32,6 +32,22 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 
 
-    //SWITCHED LOGO
+    // SERVICES TAB
+    const servicesTabBtn = document.querySelectorAll('.hero__item');
+    const servicesTabContent = document.querySelectorAll('.hero__content-item');
+    servicesTabBtn.forEach((button, index) => {
+       
+        button.addEventListener('click', () => {
+            
+            servicesTabBtn.forEach(btn => {
+                btn.classList.remove('title-gradient');
+            });
+            button.classList.add('title-gradient');
 
-});
+            servicesTabContent.forEach(item => {
+                item.classList.remove('active');
+            })
+            servicesTabContent[index].classList.add('active');
+        })
+    })
+})

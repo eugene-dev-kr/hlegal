@@ -49,8 +49,11 @@
 }
 
 .services {
-    &__content {
-       
+    &__title {
+       padding-inline: 30px;
+       @include respond(tablet-sd) {
+        padding-inline: 60px;
+       }
     }
     &__items {
         padding-block: 30px;
